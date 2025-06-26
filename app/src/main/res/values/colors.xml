@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Colores del tema de la aplicación
+    Paleta inspirada en colores mexicanos tradicionales
+-->
+<resources>
+    <!-- Colores primarios -->
+    <color name="md_theme_light_primary">#B8860B</color>
+    <color name="md_theme_light_onPrimary">#FFFFFF</color>
+    <color name="md_theme_light_primaryContainer">#F5DEB3</color>
+    <color name="md_theme_light_onPrimaryContainer">#2F1B00</color>
+
+    <!-- Colores secundarios -->
+    <color name="md_theme_light_secondary">#D2691E</color>
+    <color name="md_theme_light_onSecondary">#FFFFFF</color>
+    <color name="md_theme_light_secondaryContainer">#FFEEE6</color>
+    <color name="md_theme_light_onSecondaryContainer">#2B1400</color>
+
+    <!-- Colores de superficie -->
+    <color name="md_theme_light_surface">#FFFBF5</color>
+    <color name="md_theme_light_onSurface">#1F1B16</color>
+    <color name="md_theme_light_surfaceVariant">#F0E4D7</color>
+    <color name="md_theme_light_onSurfaceVariant">#504539</color>
+
+    <!-- Colores de fondo -->
+    <color name="md_theme_light_background">#FFFBF5</color>
+    <color name="md_theme_light_onBackground">#1F1B16</color>
+
+    <!-- Colores de outline -->
+    <color name="md_theme_light_outline">#837569</color>
+    <color name="md_theme_light_outlineVariant">#D3C8BB</color>
+
+    <!-- Colores de error -->
+    <color name="md_theme_light_error">#BA1A1A</color>
+    <color name="md_theme_light_onError">#FFFFFF</color>
+    <color name="md_theme_light_errorContainer">#FFDAD6</color>
+    <color name="md_theme_light_onErrorContainer">#410002</color>
+
+    <!-- Colores adicionales para elementos específicos -->
+    <color name="price_color">#2E7D32</color>
+    <color name="divider_color">#E0E0E0</color>
+    <color name="card_background">#FFFFFF</color>
+</resources>

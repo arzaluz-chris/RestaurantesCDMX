@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Menú contextual para elementos de la lista de restaurantes
+    Permite acceso directo a las pestañas
+-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/context_food"
+        android:title="@string/context_menu_food" />
+
+    <item
+        android:id="@+id/context_drinks"
+        android:title="@string/context_menu_drinks" />
+
+    <item
+        android:id="@+id/context_extras"
+        android:title="@string/context_menu_extras" />
+
+</menu>

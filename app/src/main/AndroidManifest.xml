@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Manifiesto de la aplicación RestaurantesCentroCDMX
+    Define permisos, activities y configuración general
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RestaurantesCentroCDMX"
+        tools:targetApi="31">
+
+        <!-- Activity principal que muestra la lista de restaurantes -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.RestaurantesCentroCDMX">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Activity de detalle del restaurante con pestañas -->
+        <activity
+            android:name=".RestaurantDetailActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.RestaurantesCentroCDMX" />
+
+        <!-- Activity de detalle del elemento del menú -->
+        <activity
+            android:name=".MenuItemDetailActivity"
+            android:exported="false"
+            android:parentActivityName=".RestaurantDetailActivity"
+            android:theme="@style/Theme.RestaurantesCentroCDMX" />
+    </application>
+</manifest>
