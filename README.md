@@ -129,7 +129,7 @@
 
 3. **Clonar el Repositorio**
    ```bash
-   git clone https://github.com/tuusuario/restaurantes-centro-cdmx.git
+   git clone https://github.com/arzaluz-chris/restaurantes-centro-cdmx.git
    cd restaurantes-centro-cdmx
    ```
 
